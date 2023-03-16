@@ -7,7 +7,7 @@ router.get('/', function(req, res, next) {
 });
 
 router.post("/", (req, res, next) => {
-  console.log('=======');
+  console.log(req.body);
   res.send("ok");
 });
 
